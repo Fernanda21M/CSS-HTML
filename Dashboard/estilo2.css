@@ -17,6 +17,18 @@
     box-sizing: border-box;
 }
 
+nav{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav.navar-brand{
+    justify-content: left;
+
+}
+
 body {
     
     font-family: 'Quicksand', sans-serif;
@@ -26,9 +38,11 @@ body {
 header{
         background: #f1f1f1;
     }
+
     
+
     .barra {
-        background: #00ADEF;
+        background: #0c0c0c;
         padding-top: 15px;
         padding-bottom: 15px;
         margin: 0;
@@ -36,7 +50,7 @@ header{
     
     .dropdown-menu {
         margin: 17px;
-        background: #262a34;
+        background: #ffffff;
         color: white;
         
     }
@@ -64,15 +78,14 @@ header{
     justify-content: space-between;
 }
 
-.top-menu .logo {
-    display: flex;
-    align-items: center;
+.top-menu a{
+    max-width: 150px;
+    height: 120vh;
+    background: var(--bg-menu);
+    padding: 20px;
+    transition: max-width .3s ease;
 }
 
-.top-menu .logo img {
-    width: 40px;
-    transition: width .3s ease;
-}
 
 .top-menu .logo span {
     font-size: 20px;
@@ -134,6 +147,20 @@ header{
     font-size: 20px;
     transition: all .3s ease;
 }
+
+.menu .a{
+    width: 100%;
+    padding: 20px 0 20px 17px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all .3s ease;
+    background: var(--azul-opacidad);
+}
+
 
 .menu .enlace:hover {
     background: var(--azul-opacidad);

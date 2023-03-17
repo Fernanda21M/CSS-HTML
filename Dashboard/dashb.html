@@ -1,16 +1,22 @@
+<<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="text-css" href="admin.css">
-    <title>Document</title>
+    <title>Hola, Mundo!</title>
 </head>
+
 <body>
+
     <nav class="navbar navbar-expand-lg navbar-light bg-warning fixed-top">
         <a class="navbar-brand" href="#">BIENVENIDO A ADMINISTRADOR | <b>UNIVERSIDAD MAJAPAHIT</b></a>
         <form class="form-inline my-2 my-lg-0 ml-auto">
@@ -64,78 +70,83 @@
             </ul>
         </div>
         <div class="col-md-10 p-5 pt-2">
-            <h3><i class="fa fa-graduation-cap mr-2" aria-hidden="true"></i>Listado de Alumnos</h3>
+            <h3><i class="fa fa-tachometer mr-2" aria-hidden="true"></i>Tablero de Intrumentos</h3>
             <hr>
 
-            <a href="" class="btn btn-primary mb-3"><i class="fa fa-plus-square mr-2" aria-hidden="true"></i>Datos de
-                Estudiantes Agregados</a>
-            <table class="table table-striped table-bordered">
-                <thead>
-                    <tr>
-                        <th scope="col">N°</th>
-                        <th scope="col">Nombre del Alumno</th>
-                        <th scope="col">Número</th>
-                        <th scope="col">Lugar de Nacimiento</th>
-                        <th scope="col">Dirección</th>
-                        <th colspan="3" scope="col"></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Teresa</td>
-                        <td>102548</td>
-                        <td>Melgar</td>
-                        <td>Calle 12 # 21 - 44</td>
-                        <td><a href="" class="btn btn-primary ">Detalles</a></td>
-                        <td><i class="fa fa-pencil-square-o bg-success p-2 text-white rounded" data-toggle="tooltip"
-                                title="Editar" aria-hidden="true"></i></td>
-                        <td><i class="fa fa-trash bg-danger p-2 text-white rounded" data-toggle="tooltip"
-                                title="Eliminar" aria-hidden="true"></i></td>
-                    </tr>
+            <div class="row text-white">
+                <div class="card bg-info ml-5" style="width: 18rem;">
+                    <div class="card-body">
+                        <div class="card-body-icon">
+                            <i class="fa fa-graduation-cap mr-2" aria-hidden="true"></i>
+                        </div>
+                        <h5 class="card-title">NÚMERO DE ESTUDIANTES</h5>
+                        <div class="display-4">1.200</div>
+                        <a href="">
+                            <p class="card-text text-white">Ver detalles<i class="fa fa-angle-double-right ml-2"
+                                    aria-hidden="true"></i></p>
+                        </a>
+                    </div>
+                </div>
 
-                    <tr>
-                        <th scope="row">2</th>
-                        <td>Danilo</td>
-                        <td>695841</td>
-                        <td>Ipiales</td>
-                        <td>Cra 45 # 57 - 01</td>
-                        <td><a href="" class="btn btn-primary ">Detalles</a></td>
-                        <td><i class="fa fa-pencil-square-o bg-success p-2 text-white rounded" data-toggle="tooltip"
-                                title="Editar" aria-hidden="true"></i></td>
-                        <td><i class="fa fa-trash bg-danger p-2 text-white rounded" data-toggle="tooltip"
-                                title="Eliminar" aria-hidden="true"></i></td>
-                    </tr>
+                <div class="card bg-success ml-5" style="width: 18rem;">
+                    <div class="card-body">
+                        <div class="card-body-icon">
+                            <i class="fa fa-book mr-2" aria-hidden="true"></i>
+                        </div>
+                        <h5 class="card-title">NÚMERO DE PROFESORES</h5>
+                        <div class="display-4">58</div>
+                        <a href="">
+                            <p class="card-text text-white">Ver detalles<i class="fa fa-angle-double-right ml-2"
+                                    aria-hidden="true"></i></p>
+                        </a>
+                    </div>
+                </div>
 
-                    <tr>
-                        <th scope="row">3</th>
-                        <td>Alejandra</td>
-                        <td>945262</td>
-                        <td>Oiba</td>
-                        <td>Calle 17f # 121 - 04</td>
-                        <td><a href="" class="btn btn-primary ">Detalles</a></td>
-                        <td><i class="fa fa-pencil-square-o bg-success p-2 text-white rounded" data-toggle="tooltip"
-                                title="Editar" aria-hidden="true"></i></td>
-                        <td><i class="fa fa-trash bg-danger p-2 text-white rounded" data-toggle="tooltip"
-                                title="Eliminar" aria-hidden="true"></i></td>
-                    </tr>
+                <div class="card bg-danger ml-5" style="width: 18rem;">
+                    <div class="card-body">
+                        <div class="card-body-icon">
+                            <i class="fa fa-user mr-2" aria-hidden="true"></i>
+                        </div>
+                        <h5 class="card-title">NÚMERO DE EMPLEADOS</h5>
+                        <div class="display-4">21</div>
+                        <a href="">
+                            <p class="card-text text-white">Ver detalles<i class="fa fa-angle-double-right ml-2"
+                                    aria-hidden="true"></i></p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="card ml-5 text-white text-center" style="width: 18rem;">
+                    <div class="card-header bg-danger display-4 pt-4 pb-4">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">INSTAGRAM</h5>
+                        <a href="#" class="btn btn-danger">SEGUIR</a>
+                    </div>
+                </div>
 
-                    <tr>
-                        <th scope="row">4</th>
-                        <td>Maira</td>
-                        <td>102569</td>
-                        <td>Bogotá</td>
-                        <td>Cra 25 # 41 - 01</td>
-                        <td><a href="" class="btn btn-primary ">Detalles</a></td>
-                        <td><i class="fa fa-pencil-square-o bg-success p-2 text-white rounded" data-toggle="tooltip"
-                                title="Editar" aria-hidden="true"></i></td>
-                        <td><i class="fa fa-trash bg-danger p-2 text-white rounded" data-toggle="tooltip"
-                                title="Eliminar" aria-hidden="true"></i></td>
-                    </tr>
-                </tbody>
-            </table>
+                <div class="card ml-5 text-white text-center" style="width: 18rem;">
+                    <div class="card-header bg-info display-4 pt-4 pb-4">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title text-info">FACEBOOK</h5>
+                        <a href="#" class="btn btn-info">ME GUSTA</a>
+                    </div>
+                </div>
 
-
+                <div class="card ml-5 text-white text-center" style="width: 18rem;">
+                    <div class="card-header bg-primary display-4 pt-4 pb-4">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title text-primary">TWITTER</h5>
+                        <a href="#" class="btn btn-primary">SEGUIR</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -151,6 +162,6 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
     <script type="text/javascript" src="admin.js"></script>
-    
 </body>
+
 </html>
