@@ -1,10 +1,83 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Menu Dashboard</title>
+    <!-- BOX ICONS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="estilo2.css">
+    <!-- CUSTOM JS -->
+    <script src="ds.js" defer></script>
 </head>
+<header>
+    <div class="container-fluid">
+            <div class="col-4 text-right barra bg-dark" >
+                <ul class="navbar-nav mr-auto">
+                        <nav class="navbar navbar-expand-lg navbar-light bg-warning fixed-top">
+                            <img src="images/acss-removebg-preview (1).png" width="100px" alt="">
+                            <i class="navbar-brand" href="#">BIENVENIDO A ADMINISTRADOR | <b>Air Conditioning Suppor System</b></i>
+                            <a href="#" class="email" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="bx bx-envelope"></i></a>
+                            <a href="#" class="note" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="bx bx-bell"></i></a>
+                            <a href="#" class="user" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="bx bx-user-circle"></i></a>
+                        </nav>    
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+<body>
+
+    <div class="menu-dashboard">
+        <!-- TOP MENU -->
+        <div class="top-menu">
+            <div class="logo">
+                <img src="./img/logo.svg" alt="">
+                <span>A.C.S.S</span>
+            </div>
+            <div class="toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </div>
+        <!-- INPUT SEARCH -->
+        <div class="input-search">
+            <i class='bx bx-search'></i>
+            <input type="text" class="input" placeholder="Buscar">
+        </div>
+        <!-- MENU -->
+        <div class="menu">
+            <a class="nav-link"></a><i class="bx bx-calendar-event"></i><a href="citas.html"><span>Citas</span></a> 
+                           
+                
+            </a>
+
+            <div class="enlace">
+                <i class="bx bx-wallet-alt"></i>
+                <span>Instalaciones</span>
+            </div>
+
+            <div class="enlace">
+                <i class="bx bx-wrench"></i>
+                <span>Mantenimiento de equipos</span>
+            </div>
+
+            <div class="enlace">
+                <i class="bx bx-pencil"></i>
+                <span>Inventario</span>
+            </div>
+
+            <div class="enlace">
+                <i class="bx bx-cog"></i>
+                <span>Configuración</span>
+            </div>
+        </div>
+    </div>
+    
 <body>
     <table class="table table-striped table-bordered">
         <thead>

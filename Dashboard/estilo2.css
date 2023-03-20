@@ -136,7 +136,7 @@ header{
 
 /* ENLACES MENU */
 
-.menu .enlace {
+.menu .nav-link {
     width: 100%;
     padding: 20px 0 20px 17px;
     border-radius: 8px;
@@ -148,7 +148,7 @@ header{
     transition: all .3s ease;
 }
 
-.menu .a{
+.menu .nav-link{
     width: 100%;
     padding: 20px 0 20px 17px;
     border-radius: 8px;
@@ -162,16 +162,16 @@ header{
 }
 
 
-.menu .enlace:hover {
+.menu .nav-link:hover {
     background: var(--azul-opacidad);
 }
 
-.menu .enlace i {
+.menu .nav-link  {
     margin-right: 20px;
     font-size: 25px;
 }
 
-.menu .enlace span {
+.menu .nav-link {
     opacity: 0;
     transition: opacity .3s ease;
 }
